@@ -41,7 +41,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import filled2dBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled2d-by@esm/index.mjs';
+import filled2dBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled2d-by@v0.0.1-esm/index.mjs';
 ```
 
 #### filled2dBy( len, clbk\[, thisArg] )
@@ -109,7 +109,7 @@ var cnt = ctx.count;
 <script type="module">
 
 import constantFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-constant-function@esm/index.mjs';
-import filled2dBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled2d-by@esm/index.mjs';
+import filled2dBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled2d-by@v0.0.1-esm/index.mjs';
 
 var out = filled2dBy( [ 1, 3 ], constantFunction( 0.0 ) );
 // returns [ [ 0.0, 0.0, 0.0 ] ]
