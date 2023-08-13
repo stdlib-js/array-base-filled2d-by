@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../tmp/main.js", "../tmp/index.js"],
+  "sourcesContent": ["/** @license Apache-2.0 */\nfunction filled2dBy(shape, clbk, thisArg) {\n\tvar arr;\n\tvar a0;\n\tvar S0;\n\tvar S1;\n\tvar i;\n\tvar j;\n\tS0 = shape[ 1 ];\n\tS1 = shape[ 0 ];\n\tarr = [];\n\tfor ( i = 0; i < S1; i++ ) {\n\t\ta0 = [];\n\t\tfor ( j = 0; j < S0; j++ ) {\n\t\t\ta0.push( clbk.call( thisArg, [ i, j ] ) );\n\t\t}\n\t\tarr.push( a0 );\n\t}\n\treturn arr;\n}\nmodule.exports = filled2dBy;\n", "/** @license Apache-2.0 */\n'use strict';\nvar main = require( './main.js' );\nmodule.exports = main;\n"],
+  "mappings": "uGAAA,IAAAA,EAAAC,EAAA,SAAAC,EAAAC,EAAA,cACA,SAASC,EAAWC,EAAOC,EAAMC,EAAS,CACzC,IAAIC,EACAC,EACAC,EACAC,EACAC,EACAC,EAIJ,IAHAH,EAAKL,EAAO,CAAE,EACdM,EAAKN,EAAO,CAAE,EACdG,EAAM,CAAC,EACDI,EAAI,EAAGA,EAAID,EAAIC,IAAM,CAE1B,IADAH,EAAK,CAAC,EACAI,EAAI,EAAGA,EAAIH,EAAIG,IACpBJ,EAAG,KAAMH,EAAK,KAAMC,EAAS,CAAEK,EAAGC,CAAE,CAAE,CAAE,EAEzCL,EAAI,KAAMC,CAAG,CACd,CACA,OAAOD,CACR,CACAL,EAAO,QAAUC,IClBjB,IAAIU,EAAO,IACX,OAAO,QAAUA",
+  "names": ["require_main", "__commonJSMin", "exports", "module", "filled2dBy", "shape", "clbk", "thisArg", "arr", "a0", "S0", "S1", "i", "j", "main"]
+}
