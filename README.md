@@ -167,6 +167,12 @@ out = filled2dBy( [ 1, 3 ], constantFunction( void 0 ) );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/array-base/filled2d`][@stdlib/array/base/filled2d]</span><span class="delimiter">: </span><span class="description">create a filled two-dimensional nested array.</span>
+
 </section>
 
 <!-- /.related -->
@@ -242,6 +248,12 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/array-base-filled2d-by/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-base-filled2d-by/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/array/base/filled2d]: https://github.com/stdlib-js/array-base-filled2d
+
+<!-- </related-links> -->
 
 </section>
 
